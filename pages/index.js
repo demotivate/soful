@@ -30,11 +30,6 @@ export default function Home() {
               auditory
             </h2>
           </Link>
-          <Link href='./your-style/kinesthetic' className='styles.card'>
-            <h2>
-              kinesthetic
-            </h2>
-          </Link>
           <Link href='./your-style/reading' className='styles.card'>
             <h2>
               reading
@@ -50,14 +45,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://sphero.com/blogs/news/learning-styles-for-kids"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          don't know what your learning style is? click me to check out this article!
         </a>
       </footer>
     </div>
