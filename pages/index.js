@@ -25,17 +25,17 @@ export default function Home() {
         </p>
 
         <div className='styles.grid'>
-          <Link href='./your-style/auditory' className='styles.card'>
+          <Link href='./auditory' className='styles.card'>
             <h2>
               auditory
             </h2>
           </Link>
-          <Link href='./your-style/reading' className='styles.card'>
+          <Link href='./reading' className='styles.card'>
             <h2>
               reading
             </h2>
           </Link>
-          <Link href='./your-style/visual' className='styles.card'>
+          <Link href='./visual' className='styles.card'>
             <h2>
               visual
             </h2>
