@@ -6,7 +6,11 @@ export default function Style(){
 }
 
 export async function getStaticPaths(){
-
+    const paths = getSubjTrees();
+    return{
+        paths,
+        fallback: false,
+    };
 }
 
 export async function getStaticProps(){
