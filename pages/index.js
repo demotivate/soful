@@ -18,11 +18,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <Link target={'_blank'} href={'https://youtu.be/dQw4w9WgXcQ'}>
-          <Image
-            src={logo}
-            width={255}
-            height={255}
-          />
+          <div className={styles.fadeIn}>
+            <Image
+              src={logo}
+              width={255}
+              height={255}
+            />
+          </div>
         </Link>
 
         <h1 className={styles.title}>
