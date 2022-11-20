@@ -17,11 +17,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image
-          src={logo}
-          width={255}
-          height={255}
-        />
+        <Link target={'_blank'} href={'https://youtu.be/dQw4w9WgXcQ'}>
+          <Image
+            src={logo}
+            width={255}
+            height={255}
+          />
+        </Link>
 
         <h1 className={styles.title}>
           soful
@@ -31,18 +33,18 @@ export default function Home() {
           select your learning style
         </p>
 
-        <div className='styles.grid'>
-          <Link href='./auditory' className='styles.card'>
+        <div className={styles.grid}>
+          <Link href='./auditory' className={styles.card}>
             <h2>
               auditory
             </h2>
           </Link>
-          <Link href='./reading' className='styles.card'>
+          <Link href='./reading' className={styles.card}>
             <h2>
               reading
             </h2>
           </Link>
-          <Link href='./visual' className='styles.card'>
+          <Link href='./visual' className={styles.card}>
             <h2>
               visual
             </h2>
