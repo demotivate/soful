@@ -5,6 +5,11 @@ import styles from '../../styles/Home.module.css';
 
 export default function Style({ data }){
     return <Layout>
+        <Head>
+            <title>soful - Visual</title>
+            <link rel="icon" href="/SOFUL.png" />
+        </Head>
+
         <main>
             <h1>
                 {`visual : ${data.title}`}

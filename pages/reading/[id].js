@@ -1,9 +1,15 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+import styles from '../../styles/Home.module.css'
 
 export default function Style({ data }){
     return <Layout>
+        <Head>
+            <title>soful - Reading</title>
+            <link rel="icon" href="/SOFUL.png" />
+        </Head>
+
         <main>
             <h1>
                 {`reading : ${data.title}`}
