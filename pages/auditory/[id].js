@@ -16,7 +16,7 @@ export default function Style({ data }){
 
     return <div>
         {data.children.map(element => (
-            <Link href={`http://localhost:3000/visual/${element.tag}`}>
+            <Link href={`http://localhost:3000/auditory/${element.tag}`}>
                 <h1>
                     {element.title}
                 </h1>
