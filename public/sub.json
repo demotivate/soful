@@ -4,5 +4,14 @@
     "linkVisual": [],
     "linkAuditory": [],
     "linkReading": [],
-    "children": ["add", "sub", "multi", "divi"]
+    "children": [
+        {
+            "tag": "simpleSub",
+            "title": "simple subtraction"
+        },
+        {
+            "tag": "variSub",
+            "title": "subtraction with variables"
+        }
+    ]
 }

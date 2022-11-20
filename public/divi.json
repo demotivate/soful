@@ -4,5 +4,14 @@
     "linkVisual": [],
     "linkAuditory": [],
     "linkReading": [],
-    "children": ["simpleDivi", "variDivi"]
+    "children": [
+        {
+            "tag": "simpleDivi",
+            "title": "simple division"
+        },
+        {
+            "tag": "variDivi",
+            "title": "division with variables"
+        }
+    ]
 }

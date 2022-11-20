@@ -4,8 +4,22 @@
     "linkVisual": [],
     "linkAuditory": [],
     "linkReading": [],
-    "children": ["add",
-    "sub",
-    "multi",
-    "divi"]
+    "children": [
+        {
+            "tag": "add",
+            "title": "addition"
+        },
+        {
+            "tag": "sub",
+            "title": "subtraction"
+        },
+        {
+            "tag": "multi",
+            "title": "multiplication"
+        },
+        {
+            "tag": "divi",
+            "title": "division"
+        }
+    ]
 }

@@ -9,10 +9,17 @@ export default function Style({ data }){
     //         {data.path}
     //     </p>
     // </div>
-    console.log(data);
+    // console.log(data.children.length);
+    // const array = [...Array(data.children.length)];
+    // titles = data.childrenTitles.map();
+    // arr = links.concat(titles);
+
     return <div>
+        {/* {data.childrenTitles.map(element => (
+            <h1>{element}</h1>
+        ))} */}
         {data.children.map(element => (
-            <Link href={`http://localhost:3000/visual/${element}`}>{element}</Link>
+            <Link href={`http://localhost:3000/visual/${element.tag}`}>{element.title}</Link>
         ))}
     </div>
 }

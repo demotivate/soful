@@ -4,5 +4,15 @@
     "linkVisual": [],
     "linkAuditory": [],
     "linkReading": [],
-    "children": ["simpleMulti", "variMulti"]
+    "children": [
+        {
+            "tag": "simpleMulti",
+            "title": "simple multiplication"
+        },
+        {
+            "tag": "variMulti",
+            "title": "multiplication with variables"
+        }
+    ],
+    "childrenTitles": ["simple multiplication", "multiplication with variables"]
 }
