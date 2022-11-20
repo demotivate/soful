@@ -6,9 +6,9 @@ export default function Style({ data }){
     return <Layout>
         {data.children.map(element => (
             <Link href={`http://localhost:3000/reading/${element.tag}`}>
-                <h1>
+                <h2>
                     {element.title}
-                </h1>
+                </h2>
             </Link>
         ))}
     </Layout>

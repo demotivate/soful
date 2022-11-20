@@ -5,9 +5,9 @@ import Layout from '../../components/layout';
 export default function Visual(){
     return <Layout>
         <Link href={'http://localhost:3000/visual/math'}>
-            <h1>
+            <h2>
                 mathematics
-            </h1>
+            </h2>
         </Link>
     </Layout>
 }
