@@ -1,49 +1,50 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+import styles from '../../styles/Home.module.css';
 
 export default function Style({ data }){
     return <Layout>
-        <h1>
-            {`visual : ${data.title}`}
-        </h1>
+        <main>
+            <h1>
+                {`visual : ${data.title}`}
+            </h1>
 
-        {data.children.map(element => (
-            <ul>
-                <li>
-                    <Link href={`http://localhost:3000/visual/${element.tag}`}>
+            <div className={styles.grid}>
+                {data.children.map(element => (
+                    <Link href={`http://localhost:3000/visual/${element.tag}`} className={styles.card}>
                         <h3>
                             {element.title}
                         </h3>
                     </Link>
-                </li>
-            </ul>
-        ))}
+                ))}
+            </div>
 
-        {
-            (Object.keys(data.linkVisual).length == 0) ? (
-                <div></div>
-            ) : (
-                <div>
-                    <br />
-                    <h1>
-                        {'recommended resources'}
-                    </h1>
+            {
+                (Object.keys(data.linkVisual).length == 0) ? (
+                    <div></div>
+                ) : (
+                    <div>
+                        <br />
+                        <h1>
+                            {'recommended resources'}
+                        </h1>
 
-                    {data.linkVisual.map(element => (
-                        <ul>
-                            <li>
-                                <Link href={element}>
-                                    <h3>
-                                        {element}
-                                    </h3>
-                                </Link>
-                            </li>
-                        </ul>
-                    ))}
-                </div>
-            )
-        }
+                        {data.linkVisual.map(element => (
+                            <ul>
+                                <li>
+                                    <Link href={element}>
+                                        <h3>
+                                            {element}
+                                        </h3>
+                                    </Link>
+                                </li>
+                            </ul>
+                        ))}
+                    </div>
+                )
+            }
+        </main>
     </Layout>
 }
 

@@ -4,46 +4,46 @@ import Layout from '../../components/layout';
 
 export default function Style({ data }){
     return <Layout>
-        <h1>
-            {`reading : ${data.title}`}
-        </h1>
+        <main>
+            <h1>
+                {`reading : ${data.title}`}
+            </h1>
 
-        {data.children.map(element => (
-            <ul>
-                <li>
-                    <Link href={`http://localhost:3000/reading/${element.tag}`}>
+            <div className={styles.grid}>
+                {data.children.map(element => (                
+                    <Link href={`http://localhost:3000/reading/${element.tag}`} className={styles.card}>
                         <h3>
                             {element.title}
                         </h3>
                     </Link>
-                </li>
-            </ul>
-        ))}
+                ))}
+            </div>
 
-        {
-            (Object.keys(data.linkReading).length == 0) ? (
-                <div></div>
-            ) : (
-                <div>
-                    <br />
-                    <h1>
-                        {'recommended resources'}
-                    </h1>
+            {
+                (Object.keys(data.linkReading).length == 0) ? (
+                    <div></div>
+                ) : (
+                    <div>
+                        <br />
+                        <h1>
+                            {'recommended resources'}
+                        </h1>
 
-                    {data.linkReading.map(element => (
-                        <ul>
-                            <li>
-                                <Link href={element}>
-                                    <h3>
-                                        {element}
-                                    </h3>
-                                </Link>
-                            </li>
-                        </ul>
-                    ))}
-                </div>
-            )
-        }
+                        {data.linkReading.map(element => (
+                            <ul>
+                                <li>
+                                    <Link href={element}>
+                                        <h3>
+                                            {element}
+                                        </h3>
+                                    </Link>
+                                </li>
+                            </ul>
+                        ))}
+                    </div>
+                )
+            }
+        </main>
     </Layout>
 }
 
