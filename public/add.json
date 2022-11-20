@@ -4,5 +4,5 @@
     "linkVisual": [],
     "linkAuditory": [],
     "linkReading": [],
-    "children": ["mathAdd"]
+    "children": ["simpleAdd", "variAdd"]
 }

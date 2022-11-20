@@ -4,5 +4,5 @@
     "linkVisual": [],
     "linkAuditory": [],
     "linkReading": [],
-    "children": ["add", "sub", "multi", "divi"]
+    "children": ["simpleMulti", "variMulti"]
 }

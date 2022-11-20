@@ -12,18 +12,18 @@ export default function Style({ data }){
     console.log(data);
     return <div>
         {data.children.map(element => (
-            <Link href={`http://localhost:3000/${element.id}.json`}>{element.title}</Link>
+            <Link href={`http://localhost:3000/visual/${element}`}>{element}</Link>
         ))}
     </div>
 }
 
-export function Links({ input }){
-    return <div>
-        <Link href={`http://localhost:3000/${input.id}.json`}>
-            {input.title}
-        </Link>
-    </div>
-}
+// export function Links({ input }){
+//     return <div>
+//         <Link href={`http://localhost:3000/${input.id}.json`}>
+//             {input.title}
+//         </Link>
+//     </div>
+// }
 
 export async function getStaticPaths(){
     // const paths = getSubjTrees();
