@@ -4,10 +4,18 @@ import Layout from '../../components/layout';
 
 export default function Visual(){
     return <Layout>
-        <Link href={'http://localhost:3000/visual/math'}>
-            <h2>
-                mathematics
-            </h2>
-        </Link>
+        <h1>
+            {`visual`}
+        </h1>
+        
+        <ul>
+            <li>
+                <Link href={'http://localhost:3000/visual/math'}>
+                    <h3>
+                        mathematics
+                    </h3>
+                </Link>
+            </li>
+        </ul>
     </Layout>
 }

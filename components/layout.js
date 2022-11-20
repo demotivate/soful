@@ -4,15 +4,33 @@ import Image from 'next/image';
 import logo from '../public/SOFUL.png';
 
 export default function Layout({ children }){
-    return <div className={styles.container}>
-        <ul>
+    return <div>
+        <ul className={styles.navbar}>
             <li>
-                <Link>
-                    <Image/>
+                <Link href={'http://localhost:3000'} className={styles.navlink}>
+                    <Image
+                        src={logo}
+                        width={100}
+                        height={100}
+                    />
                 </Link>
+            </li>
+
+            <li className={styles.navitem}>
+                <Link href={'http://localhost:3000/auditory'} className={styles.navlink}>auditory</Link>
+            </li>
+            
+            <li className={styles.navitem}>
+                <Link href={'http://localhost:3000/reading'} className={styles.navlink}>reading</Link>
+            </li>
+
+            <li className={styles.navitem}>
+                <Link href={'http://localhost:3000/visual'} className={styles.navlink}>visual</Link>
             </li>
         </ul>
 
-        {children}
+        <div className={styles.container}>
+           {children}
+        </div>
     </div>;
 }

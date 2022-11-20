@@ -1,15 +1,24 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+import styles from '../../styles/Home.module.css';
 
 export default function Style({ data }){
     return <Layout>
+        <h1>
+            {`auditory : ${data.title}`}
+        </h1>
+
         {data.children.map(element => (
-            <Link href={`http://localhost:3000/auditory/${element.tag}`}>
-                <h2>
-                    {element.title}
-                </h2>
-            </Link>
+            <ul>
+                <li>
+                    <Link href={`http://localhost:3000/auditory/${element.tag}`}>
+                        <h3>
+                            {element.title}
+                        </h3>
+                    </Link>
+                </li>
+            </ul>
         ))}
     </Layout>
 }

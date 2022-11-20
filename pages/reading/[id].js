@@ -4,12 +4,20 @@ import Layout from '../../components/layout';
 
 export default function Style({ data }){
     return <Layout>
+        <h1>
+            {`reading : ${data.title}`}
+        </h1>
+
         {data.children.map(element => (
-            <Link href={`http://localhost:3000/reading/${element.tag}`}>
-                <h2>
-                    {element.title}
-                </h2>
-            </Link>
+            <ul>
+                <li>
+                    <Link href={`http://localhost:3000/reading/${element.tag}`}>
+                        <h3>
+                            {element.title}
+                        </h3>
+                    </Link>
+                </li>
+            </ul>
         ))}
     </Layout>
 }
