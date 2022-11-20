@@ -19,6 +19,31 @@ export default function Style({ data }){
                 </li>
             </ul>
         ))}
+
+        {
+            (Object.keys(data.linkVisual).length == 0) ? (
+                <div></div>
+            ) : (
+                <div>
+                    <br />
+                    <h1>
+                        {'recommended resources'}
+                    </h1>
+
+                    {data.linkVisual.map(element => (
+                        <ul>
+                            <li>
+                                <Link href={element}>
+                                    <h3>
+                                        {element}
+                                    </h3>
+                                </Link>
+                            </li>
+                        </ul>
+                    ))}
+                </div>
+            )
+        }
     </Layout>
 }
 
