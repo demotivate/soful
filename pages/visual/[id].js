@@ -11,7 +11,7 @@ export default function Style({ data }){
     // </div>
     console.log(data);
     return <div>
-        {data.map(element => (
+        {data.children.map(element => (
             <Link href={`http://localhost:3000/${element.id}.json`}>{element.title}</Link>
         ))}
     </div>
