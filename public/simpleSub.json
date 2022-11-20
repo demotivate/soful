@@ -1,8 +1,8 @@
 {
     "id": "simpleSub",
     "title": "simple subtraction",
-    "linkVisual": [],
-    "linkAuditory": [],
-    "linkReading": [],
+    "linkVisual": ["https://www.youtube.com/watch?v=Y6M89-6106I", "https://www.youtube.com/watch?v=ug0gs8kLE48"],
+    "linkAuditory": ["https://www.youtube.com/watch?v=pwQKugrFmJQ", "https://www.youtube.com/watch?v=nku3jVLbPBw"],
+    "linkReading": ["https://www.wikihow.com/Subtract", "https://www.aaamath.com/g38g_sx1.htm"],
     "children": []
 }

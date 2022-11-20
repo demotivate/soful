@@ -1,8 +1,8 @@
 {
     "id": "simpleMulti",
     "title": "simple multiplication",
-    "linkVisual": [],
-    "linkAuditory": [],
-    "linkReading": [],
+    "linkVisual": ["https://www.youtube.com/watch?v=RVYwunbpMHA", "https://www.youtube.com/watch?v=GKetIwxaenA"],
+    "linkAuditory": ["https://www.youtube.com/watch?v=EgjCLhoI9Mk&ab_channel=McCarthyMathAcademy", "https://www.youtube.com/watch?v=D6ajLh0isG8&ab_channel=KLT"],
+    "linkReading": ["https://www.splashlearn.com/math-vocabulary/multiplication/long-multiplication", "https://www.wikihow.com/Do-Long-Multiplication"],
     "children": []
 }

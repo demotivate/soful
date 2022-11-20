@@ -1,8 +1,8 @@
 {
     "id": "simpleDivi",
     "title": "simple division",
-    "linkVisual": [],
-    "linkAuditory": [],
-    "linkReading": [],
+    "linkVisual": ["https://www.youtube.com/watch?v=KGMf314LUc0", "https://www.youtube.com/watch?v=LGqBQrUYua4"],
+    "linkAuditory": ["https://www.youtube.com/watch?v=oF2fITujB4c&ab_channel=MathSongsbyNUMBEROCK", "https://www.youtube.com/watch?v=slez17loMvU&ab_channel=McCarthyMathAcademy"],
+    "linkReading": ["https://www.cuemath.com/numbers/long-division/", "https://www.splashlearn.com/math-vocabulary/division/long-division"],
     "children": []
 }

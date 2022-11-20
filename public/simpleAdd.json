@@ -1,8 +1,8 @@
 {
     "id": "simpleAdd",
     "title": "simple addition",
-    "linkVisual": [],
-    "linkAuditory": [],
-    "linkReading": [],
+    "linkVisual": ["https://www.youtube.com/watch?v=uONIJ5TQ2DA", "https://www.youtube.com/watch?v=7J1OkxuyLD0&ab_channel=ScratchGarden"],
+    "linkAuditory": ["https://www.youtube.com/watch?v=uONIJ5TQ2DA", "https://www.youtube.com/watch?v=5xJib-LUhGQ&ab_channel=MathSongsbyNUMBEROCK"],
+    "linkReading": ["https://www.pvnccdsb.on.ca/wp-content/uploads/2019/12/Operational-Strategies.pdf", "https://www.universalclass.com/articles/math/basic-math/how-to-do-addition.htm#:~:text=We%20simply%20need%20to%20add%20the%20numbers%20together.&text=Each%20of%20the%20numbers%20that,which%20looks%20like%20this%3A%20%2B.&text=When%20we%20show%20it%20horizontally,between%20each%20pair%20of%20addends."],
     "children": []
 }

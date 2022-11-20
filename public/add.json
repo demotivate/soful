@@ -1,9 +1,9 @@
 {
     "id": "add",
     "title": "addition",
-    "linkVisual": [],
+    "linkVisual": [], 
     "linkAuditory": [],
-    "linkReading": [],
+    "linkReading": [], 
     "children": [
         {
             "tag": "simpleAdd",
