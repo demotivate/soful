@@ -1,0 +1,8 @@
+{
+    "id": "simpleSub",
+    "title": "simple subtraction",
+    "linkVisual": [],
+    "linkAuditory": [],
+    "linkReading": [],
+    "children": ["add", "sub", "multi", "divi"]
+}

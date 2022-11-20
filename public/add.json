@@ -1,0 +1,8 @@
+{
+    "id": "add",
+    "title": "addition",
+    "linkVisual": [],
+    "linkAuditory": [],
+    "linkReading": [],
+    "children": ["mathAdd"]
+}

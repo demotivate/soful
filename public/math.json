@@ -1,0 +1,11 @@
+{
+    "id": "math",
+    "title": "mathematics",
+    "linkVisual": [],
+    "linkAuditory": [],
+    "linkReading": [],
+    "children": ["add",
+    "sub",
+    "multi",
+    "divi"]
+}

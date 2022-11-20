@@ -1,0 +1,8 @@
+{
+    "id": "variDivi",
+    "title": "division with variables",
+    "linkVisual": [],
+    "linkAuditory": [],
+    "linkReading": [],
+    "children": ["add", "sub", "multi", "divi"]
+}

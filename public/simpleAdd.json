@@ -1,0 +1,8 @@
+{
+    "id": "simpleAdd",
+    "title": "simple addition",
+    "linkVisual": [],
+    "linkAuditory": [],
+    "linkReading": [],
+    "children": ["add", "sub", "multi", "divi"]
+}

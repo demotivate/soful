@@ -1,0 +1,8 @@
+{
+    "id": "variAdd",
+    "title": "addition with variables",
+    "linkVisual": [],
+    "linkAuditory": [],
+    "linkReading": [],
+    "children": ["add", "sub", "multi", "divi"]
+}
